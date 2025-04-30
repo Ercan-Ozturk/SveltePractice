@@ -1,2 +1,32 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div>
+	<div class="max-w-sm overflow-hidden rounded shadow-lg">
+		<div class="px-6 py-4">
+			<div class="mb-2 text-xl font-bold">The Coldest Sunset</div>
+			<p class="text-base text-gray-700">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores
+				et perferendis eaque, exercitationem praesentium nihil.
+			</p>
+		</div>
+		<div class="px-6 pt-4 pb-2">
+			<span
+				class="mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700"
+				>#photography</span
+			>
+			<span
+				class="mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700"
+				>#travel</span
+			>
+			<span
+				class="mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700"
+				>#winter</span
+			>
+		</div>
+	</div>
+</div>
+
+<style lang="postcss">
+	@reference "tailwindcss";
+	:global(html) {
+		background-color: theme(--color-gray-100);
+	}
+</style>
